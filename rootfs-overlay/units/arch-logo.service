@@ -1,0 +1,13 @@
+[Unit]
+Description=Print Arch Linux logo on console
+After=systemd-vconsole-setup.service local-fs.target
+Before=getty.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/sh -c 'cat /etc/arch-logo > /dev/console'
+StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target
