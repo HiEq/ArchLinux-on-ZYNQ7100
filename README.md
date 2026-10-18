@@ -26,7 +26,6 @@
 | PS DDR3 | MT41K256M16 ×2 | 1 GB，32-bit，1066 MT/s |
 | PL DDR3 | MT41K256M16 ×2 | 1 GB，仅 PL |
 | QSPI | W25Q256FV ×2 | 64 MB |
-| eMMC | KLM8G1GETF-B041 | 8 GB，纯 PS 不可用，见 `docs/emmc.md` |
 | SD/TF | SD0，MIO40~45 | 底板卡槽 |
 | UART0 | MIO14/15 | CH340 |
 
